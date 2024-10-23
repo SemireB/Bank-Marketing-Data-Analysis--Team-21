@@ -1,0 +1,9 @@
+housing_loan_group,personal_loan_group,credit_default_group,total_customers,total_subscribed,subscription_rate
+Has Housing Loan,Has Personal Loan,Has Credit Default,11,0,0.0
+Has Housing Loan,Has Personal Loan,No Credit Default,395,25,0.0
+Has Housing Loan,No Personal Loan,Has Credit Default,34,3,0.0
+Has Housing Loan,No Personal Loan,No Credit Default,2119,192,0.0
+No Housing Loan,Has Personal Loan,Has Credit Default,14,2,0.0
+No Housing Loan,Has Personal Loan,No Credit Default,271,16,0.0
+No Housing Loan,No Personal Loan,Has Credit Default,17,4,0.0
+No Housing Loan,No Personal Loan,No Credit Default,1660,279,0.0
