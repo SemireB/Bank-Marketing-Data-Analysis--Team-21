@@ -1,0 +1,171 @@
+age_group,job,balance_group,previous_contact_group,total_customers,total_subscribed,subscription_rate
+Older,self-employed,Medium Balance,Contacted Before,2,2,100.0
+Older,unknown,Medium Balance,Contacted Before,1,1,100.0
+Young,housemaid,Low Balance,Contacted Before,1,1,100.0
+Young,self-employed,Low Balance,Contacted Before,1,1,100.0
+Young,services,Medium Balance,Contacted Before,1,1,100.0
+Middle-aged,admin.,High Balance,Contacted Before,2,1,0.0
+Middle-aged,admin.,High Balance,No Previous Contact,14,1,0.0
+Middle-aged,admin.,Low Balance,Contacted Before,49,11,0.0
+Middle-aged,admin.,Low Balance,No Previous Contact,188,18,0.0
+Middle-aged,admin.,Medium Balance,Contacted Before,16,4,0.0
+Middle-aged,admin.,Medium Balance,No Previous Contact,72,6,0.0
+Middle-aged,blue-collar,High Balance,Contacted Before,6,0,0.0
+Middle-aged,blue-collar,High Balance,No Previous Contact,24,1,0.0
+Middle-aged,blue-collar,Low Balance,Contacted Before,81,7,0.0
+Middle-aged,blue-collar,Low Balance,No Previous Contact,419,25,0.0
+Middle-aged,blue-collar,Medium Balance,Contacted Before,33,6,0.0
+Middle-aged,blue-collar,Medium Balance,No Previous Contact,141,13,0.0
+Middle-aged,entrepreneur,High Balance,No Previous Contact,8,0,0.0
+Middle-aged,entrepreneur,Low Balance,Contacted Before,9,0,0.0
+Middle-aged,entrepreneur,Low Balance,No Previous Contact,75,8,0.0
+Middle-aged,entrepreneur,Medium Balance,Contacted Before,6,2,0.0
+Middle-aged,entrepreneur,Medium Balance,No Previous Contact,27,1,0.0
+Middle-aged,housemaid,High Balance,Contacted Before,3,0,0.0
+Middle-aged,housemaid,High Balance,No Previous Contact,5,2,0.0
+Middle-aged,housemaid,Low Balance,Contacted Before,4,1,0.0
+Middle-aged,housemaid,Low Balance,No Previous Contact,33,2,0.0
+Middle-aged,housemaid,Medium Balance,Contacted Before,4,1,0.0
+Middle-aged,housemaid,Medium Balance,No Previous Contact,9,2,0.0
+Middle-aged,management,High Balance,Contacted Before,16,2,0.0
+Middle-aged,management,High Balance,No Previous Contact,58,7,0.0
+Middle-aged,management,Low Balance,Contacted Before,90,18,0.0
+Middle-aged,management,Low Balance,No Previous Contact,368,25,0.0
+Middle-aged,management,Medium Balance,Contacted Before,42,17,0.0
+Middle-aged,management,Medium Balance,No Previous Contact,162,30,0.0
+Middle-aged,retired,High Balance,No Previous Contact,2,0,0.0
+Middle-aged,retired,Low Balance,Contacted Before,1,0,0.0
+Middle-aged,retired,Low Balance,No Previous Contact,8,0,0.0
+Middle-aged,retired,Medium Balance,No Previous Contact,1,0,0.0
+Middle-aged,self-employed,High Balance,Contacted Before,2,0,0.0
+Middle-aged,self-employed,High Balance,No Previous Contact,7,1,0.0
+Middle-aged,self-employed,Low Balance,Contacted Before,14,0,0.0
+Middle-aged,self-employed,Low Balance,No Previous Contact,73,6,0.0
+Middle-aged,self-employed,Medium Balance,Contacted Before,4,0,0.0
+Middle-aged,self-employed,Medium Balance,No Previous Contact,30,3,0.0
+Middle-aged,services,High Balance,Contacted Before,5,1,0.0
+Middle-aged,services,High Balance,No Previous Contact,9,0,0.0
+Middle-aged,services,Low Balance,Contacted Before,23,3,0.0
+Middle-aged,services,Low Balance,No Previous Contact,177,12,0.0
+Middle-aged,services,Medium Balance,Contacted Before,17,4,0.0
+Middle-aged,services,Medium Balance,No Previous Contact,57,5,0.0
+Middle-aged,student,High Balance,Contacted Before,1,0,0.0
+Middle-aged,student,High Balance,No Previous Contact,1,0,0.0
+Middle-aged,student,Low Balance,Contacted Before,3,0,0.0
+Middle-aged,student,Low Balance,No Previous Contact,10,0,0.0
+Middle-aged,student,Medium Balance,Contacted Before,1,0,0.0
+Middle-aged,student,Medium Balance,No Previous Contact,4,0,0.0
+Middle-aged,technician,High Balance,Contacted Before,14,3,0.0
+Middle-aged,technician,High Balance,No Previous Contact,30,1,0.0
+Middle-aged,technician,Low Balance,Contacted Before,69,11,0.0
+Middle-aged,technician,Low Balance,No Previous Contact,335,24,0.0
+Middle-aged,technician,Medium Balance,Contacted Before,26,7,0.0
+Middle-aged,technician,Medium Balance,No Previous Contact,117,14,0.0
+Middle-aged,unemployed,High Balance,No Previous Contact,4,0,0.0
+Middle-aged,unemployed,Low Balance,Contacted Before,14,2,0.0
+Middle-aged,unemployed,Low Balance,No Previous Contact,44,2,0.0
+Middle-aged,unemployed,Medium Balance,Contacted Before,3,2,0.0
+Middle-aged,unemployed,Medium Balance,No Previous Contact,22,2,0.0
+Middle-aged,unknown,High Balance,No Previous Contact,1,0,0.0
+Middle-aged,unknown,Low Balance,Contacted Before,4,3,0.0
+Middle-aged,unknown,Low Balance,No Previous Contact,9,0,0.0
+Middle-aged,unknown,Medium Balance,No Previous Contact,6,0,0.0
+Older,admin.,High Balance,No Previous Contact,2,0,0.0
+Older,admin.,Low Balance,Contacted Before,16,2,0.0
+Older,admin.,Low Balance,No Previous Contact,29,2,0.0
+Older,admin.,Medium Balance,Contacted Before,8,4,0.0
+Older,admin.,Medium Balance,No Previous Contact,20,2,0.0
+Older,blue-collar,High Balance,Contacted Before,1,0,0.0
+Older,blue-collar,High Balance,No Previous Contact,8,0,0.0
+Older,blue-collar,Low Balance,Contacted Before,16,1,0.0
+Older,blue-collar,Low Balance,No Previous Contact,79,3,0.0
+Older,blue-collar,Medium Balance,Contacted Before,5,2,0.0
+Older,blue-collar,Medium Balance,No Previous Contact,37,1,0.0
+Older,entrepreneur,High Balance,No Previous Contact,3,0,0.0
+Older,entrepreneur,Low Balance,Contacted Before,3,0,0.0
+Older,entrepreneur,Low Balance,No Previous Contact,21,2,0.0
+Older,entrepreneur,Medium Balance,Contacted Before,3,1,0.0
+Older,entrepreneur,Medium Balance,No Previous Contact,3,0,0.0
+Older,housemaid,High Balance,No Previous Contact,5,1,0.0
+Older,housemaid,Low Balance,Contacted Before,6,2,0.0
+Older,housemaid,Low Balance,No Previous Contact,32,1,0.0
+Older,housemaid,Medium Balance,No Previous Contact,6,1,0.0
+Older,management,High Balance,Contacted Before,4,1,0.0
+Older,management,High Balance,No Previous Contact,13,2,0.0
+Older,management,Low Balance,Contacted Before,10,2,0.0
+Older,management,Low Balance,No Previous Contact,82,7,0.0
+Older,management,Medium Balance,Contacted Before,8,3,0.0
+Older,management,Medium Balance,No Previous Contact,46,2,0.0
+Older,retired,High Balance,Contacted Before,7,3,0.0
+Older,retired,High Balance,No Previous Contact,18,4,0.0
+Older,retired,Low Balance,Contacted Before,21,7,0.0
+Older,retired,Low Balance,No Previous Contact,105,19,0.0
+Older,retired,Medium Balance,Contacted Before,20,6,0.0
+Older,retired,Medium Balance,No Previous Contact,46,15,0.0
+Older,self-employed,High Balance,No Previous Contact,3,1,0.0
+Older,self-employed,Low Balance,Contacted Before,5,1,0.0
+Older,self-employed,Low Balance,No Previous Contact,17,2,0.0
+Older,self-employed,Medium Balance,No Previous Contact,10,2,0.0
+Older,services,High Balance,No Previous Contact,3,0,0.0
+Older,services,Low Balance,Contacted Before,6,3,0.0
+Older,services,Low Balance,No Previous Contact,35,1,0.0
+Older,services,Medium Balance,Contacted Before,3,1,0.0
+Older,services,Medium Balance,No Previous Contact,12,0,0.0
+Older,technician,High Balance,No Previous Contact,9,1,0.0
+Older,technician,Low Balance,Contacted Before,15,5,0.0
+Older,technician,Low Balance,No Previous Contact,55,3,0.0
+Older,technician,Medium Balance,Contacted Before,5,4,0.0
+Older,technician,Medium Balance,No Previous Contact,22,1,0.0
+Older,unemployed,Low Balance,Contacted Before,2,1,0.0
+Older,unemployed,Low Balance,No Previous Contact,15,1,0.0
+Older,unemployed,Medium Balance,Contacted Before,1,0,0.0
+Older,unemployed,Medium Balance,No Previous Contact,7,1,0.0
+Older,unknown,High Balance,No Previous Contact,1,0,0.0
+Older,unknown,Low Balance,Contacted Before,1,0,0.0
+Older,unknown,Low Balance,No Previous Contact,9,2,0.0
+Older,unknown,Medium Balance,No Previous Contact,5,1,0.0
+Young,admin.,High Balance,Contacted Before,1,0,0.0
+Young,admin.,Low Balance,Contacted Before,11,3,0.0
+Young,admin.,Low Balance,No Previous Contact,33,2,0.0
+Young,admin.,Medium Balance,Contacted Before,5,2,0.0
+Young,admin.,Medium Balance,No Previous Contact,12,0,0.0
+Young,blue-collar,High Balance,Contacted Before,1,0,0.0
+Young,blue-collar,High Balance,No Previous Contact,4,0,0.0
+Young,blue-collar,Low Balance,Contacted Before,6,1,0.0
+Young,blue-collar,Low Balance,No Previous Contact,67,7,0.0
+Young,blue-collar,Medium Balance,Contacted Before,3,0,0.0
+Young,blue-collar,Medium Balance,No Previous Contact,15,2,0.0
+Young,entrepreneur,High Balance,No Previous Contact,1,0,0.0
+Young,entrepreneur,Low Balance,Contacted Before,2,0,0.0
+Young,entrepreneur,Low Balance,No Previous Contact,6,1,0.0
+Young,entrepreneur,Medium Balance,No Previous Contact,1,0,0.0
+Young,housemaid,Low Balance,No Previous Contact,3,0,0.0
+Young,housemaid,Medium Balance,No Previous Contact,1,0,0.0
+Young,management,High Balance,Contacted Before,1,0,0.0
+Young,management,High Balance,No Previous Contact,2,0,0.0
+Young,management,Low Balance,Contacted Before,11,5,0.0
+Young,management,Low Balance,No Previous Contact,38,6,0.0
+Young,management,Medium Balance,Contacted Before,4,2,0.0
+Young,management,Medium Balance,No Previous Contact,14,2,0.0
+Young,retired,Low Balance,No Previous Contact,1,0,0.0
+Young,self-employed,Low Balance,No Previous Contact,11,0,0.0
+Young,self-employed,Medium Balance,No Previous Contact,4,1,0.0
+Young,services,High Balance,Contacted Before,1,0,0.0
+Young,services,High Balance,No Previous Contact,1,0,0.0
+Young,services,Low Balance,Contacted Before,6,1,0.0
+Young,services,Low Balance,No Previous Contact,54,5,0.0
+Young,services,Medium Balance,No Previous Contact,7,1,0.0
+Young,student,High Balance,Contacted Before,4,1,0.0
+Young,student,High Balance,No Previous Contact,3,0,0.0
+Young,student,Low Balance,Contacted Before,8,3,0.0
+Young,student,Low Balance,No Previous Contact,32,10,0.0
+Young,student,Medium Balance,Contacted Before,5,4,0.0
+Young,student,Medium Balance,No Previous Contact,12,1,0.0
+Young,technician,Low Balance,Contacted Before,9,1,0.0
+Young,technician,Low Balance,No Previous Contact,46,6,0.0
+Young,technician,Medium Balance,Contacted Before,3,0,0.0
+Young,technician,Medium Balance,No Previous Contact,13,2,0.0
+Young,unemployed,Low Balance,No Previous Contact,14,2,0.0
+Young,unemployed,Medium Balance,Contacted Before,1,0,0.0
+Young,unemployed,Medium Balance,No Previous Contact,1,0,0.0
+Young,unknown,High Balance,No Previous Contact,1,0,0.0
