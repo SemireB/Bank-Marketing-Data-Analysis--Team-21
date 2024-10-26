@@ -51,15 +51,34 @@ By the end of **Part 2**, participants will be able to:
 
 ## Instructions
 
-1. You will be given access to a dataset bank. As a team, choose one of our carefully selected datasets (more info on this later) and explore it, keeping the questions listed below in mind.
+### Part 1 Business Case: 
+Analyzing Factors Influencing Term Deposit Acquisition
 
-2. A team member should create a new repository for the project, which the rest of the team can clone (see the [Project Folder Structure](#project-folder-structure) for a folder structure template to use as a starting point). It doesn’t matter who creates the repository, as GitHub tracks everyone’s contributions fairly.
+### Part 2 Executive Summary:
+This business case explores the relationship between customer demographics, financial standing, and campaign strategy on the likelihood of acquiring a term deposit. By understanding these factors, our bank can refine marketing strategies, improve customer targeting, and ultimately increase term deposit sales.
 
-3. Determine what roles the various team members will play on the team, which tasks need to be completed and assigned to which team members, and what your team standards will be with respect to code reviews, approvals, and merges. 
+### Part 3 Objectives:
+1. Identify key customer demographics that influence term deposit acquisition.
+2. Assess the impact of financial standing on customer decisions. 
+3. Evaluate the effectiveness of current campaign strategies. 
+4. Develop actionable recommendations to enhance marketing efforts.
 
-4. Have fun! This project is yours. This is the time to create something that prospective employers can consider when reviewing your application for a role, so be sure to clearly demonstrate the business value that your project could provide. What will your project tell them about you, your skills, and your ability to work effectively on a team?
+### Part 4 Background:
+Term deposits are a cornerstone of our savings products, providing a secure investment option for customers. However, recent trends indicate a need to better understand the factors influencing customer decisions in order to optimize our marketing strategies and increase conversions.
 
-Additionally, there are resources listed at the bottom of this page to help you understand Git conflicts and ways to work effectively as a team. You should review these to help set standards for your team processes.
+### Part 5 Clustering and Resampling:
+To use Python for analyzing the provided dataset and answering the research questions, we follow these steps. The process involves data exploration, preprocessing, model building, and evaluation. Below is a general outline for using Python to approach these research questions:
+
+### Part 6 Steps:
+1. Step1: Import Necessary Libraries.
+2. Step2: Load the dataset.
+3. Step3: Data Exploration.
+4. Step4: Data Preprocessing.
+5. Sep5: Split the data into Training and Testing Sets.
+6. Step6: Train a Classification Model.
+7. Step7: Evaluate the Model.
+8. Step8: Feature Importance Analysis.
+9. Step9: Answering Specific Research Questions.
 
 ---
 
