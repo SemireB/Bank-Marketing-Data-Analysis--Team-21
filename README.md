@@ -185,3 +185,15 @@ Each team is responsible for creating their own Git repository for the Team Proj
 * [TTC Transit Delay Project](https://github.com/JasonYao3/TTC_transit_delay_proj)
 * [Mortgage Risk Assessment Project](https://github.com/movcha/team_project)
 * [Mexican Government Report Text Analysis](https://github.com/PhantomInsights/mexican-government-report)
+
+
+## Division of Responsibilities
+
+* Semire Bamikole: 
+* Laura Barbosa:
+* Yan:
+* Brandon B:
+* Tina Lin:
+  * Gather and document requirements
+  * Write, test and maintain code
+  * Update documentation for technical solutions 
