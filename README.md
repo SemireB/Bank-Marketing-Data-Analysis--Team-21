@@ -49,24 +49,28 @@ By the end of **Part 2**, participants will be able to:
 
 ---
 
-## Instructions
+## Team 21 
 
-### Part 1 Business Case: 
+### Business Case: 
 Analyzing Factors Influencing Term Deposit Acquisition
 
-### Part 2 Executive Summary:
+### Research Question: 
+How do customer demographics, financial standing, and marketing campaign strategies interact to influence the likelihood of acquiring a term deposit among customers of a banking institution?
+This question aims to explore the relationships between these variables and identify the key factors that drive customer decisions regarding term deposits.
+
+### Executive Summary:
 This business case explores the relationship between customer demographics, financial standing, and campaign strategy on the likelihood of acquiring a term deposit. By understanding these factors, our bank can refine marketing strategies, improve customer targeting, and ultimately increase term deposit sales.
 
-### Part 3 Objectives:
+### Objectives:
 1. Identify key customer demographics that influence term deposit acquisition.
 2. Assess the impact of financial standing on customer decisions. 
 3. Evaluate the effectiveness of current campaign strategies. 
 4. Develop actionable recommendations to enhance marketing efforts.
 
-### Part 4 Background:
+### Background:
 Term deposits are a cornerstone of our savings products, providing a secure investment option for customers. However, recent trends indicate a need to better understand the factors influencing customer decisions in order to optimize our marketing strategies and increase conversions.
 
-### Part 5 Clustering and Resampling:
+### Process:
 To use Python for analyzing the provided dataset and answering the research questions, we follow these steps. The process involves data exploration, preprocessing, model building, and evaluation. Below is a general outline for using Python to approach these research questions:
 
 ### Part 6 Steps:
