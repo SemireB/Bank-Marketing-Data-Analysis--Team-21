@@ -84,6 +84,30 @@ To use Python for analyzing the provided dataset and answering the research ques
 8. Step8: Feature Importance Analysis.
 9. Step9: Answering Specific Research Questions.
 
+
+
+
+
+## Division of Responsibilities
+
+* Semire Bamikole:
+  * Organize and structure business case and team repo folders
+  * Determine mean and medians for numerical varibales + visual summary of the output
+* Laura Barbosa:
+  * Clean the dataset by removing duplicates, correcting inaccuracies, and handling missing values
+  * Transform the data into a suitable format for analysis (e.g., encoding categorical variables, normalizing numerical data)
+* Yan:
+  * Determine standard deviation, range, IQR for numerical varibales + visual summary of the output
+* Brandon B:
+  * Determine frequency counts and proportions for categorical varibales + visual summary of the output
+* Tina Lin:
+  * Gather and document requirements
+  * Write, test and maintain code
+  * Update documentation for technical solutions
+ 
+
+
+
 ---
 
 ## Potential Questions to Discuss When Reviewing Your Dataset
@@ -190,20 +214,3 @@ Each team is responsible for creating their own Git repository for the Team Proj
 * [Mortgage Risk Assessment Project](https://github.com/movcha/team_project)
 * [Mexican Government Report Text Analysis](https://github.com/PhantomInsights/mexican-government-report)
 
-
-## Division of Responsibilities
-
-* Semire Bamikole:
-  * Organize and structure business case and team repo folders
-  * Determine mean and medians for numerical varibales + visual summary of the output
-* Laura Barbosa:
-  * Clean the dataset by removing duplicates, correcting inaccuracies, and handling missing values
-  * Transform the data into a suitable format for analysis (e.g., encoding categorical variables, normalizing numerical data)
-* Yan:
-  * Determine standard deviation, range, IQR for numerical varibales + visual summary of the output
-* Brandon B:
-  * Determine frequency counts and proportions for categorical varibales + visual summary of the output
-* Tina Lin:
-  * Gather and document requirements
-  * Write, test and maintain code
-  * Update documentation for technical solutions 
