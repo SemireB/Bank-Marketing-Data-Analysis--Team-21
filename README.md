@@ -72,9 +72,13 @@ Term deposits are a cornerstone of our savings products, providing a secure inve
 ### Video Reflection Links
 
 **Semire Bamikole-**
+
 **Brandon B-**
+
 **Laura Barbosa-**
+
 **Yan-**
+
 **Tina Lin-**
 
 
