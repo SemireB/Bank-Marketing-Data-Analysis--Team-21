@@ -200,13 +200,13 @@ b. Negative outcomes: Analyze why customers with past negative outcomes are not 
 
 **Semire Bamikole-**
 
-**Brandon B-**
+**Brandon B-** https://drive.google.com/file/d/19a0bzObRJIm8NmIExw5xtGKJug3Np5n8/view?usp=sharing 
 
 **Laura Barbosa-**
 
 **Yan-**
 
-**Tina Lin-**
+**Tina Lin-** https://drive.google.com/drive/folders/1DKatUlsY0P3f3RhRqNFp-cpd7X6UUu5c?usp=drive_link
 
 
 ## Division of Responsibilities
