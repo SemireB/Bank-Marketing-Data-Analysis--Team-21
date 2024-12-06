@@ -5,12 +5,17 @@
 ### Business Case: 
 Analyzing Factors Influencing Term Deposit Acquisition
 
+### Executive Summary:
+This business case explores the relationship between customer demographics, financial standing, and campaign strategy on the likelihood of acquiring a term deposit. By understanding these factors, our bank can refine marketing strategies, improve customer targeting, and ultimately increase term deposit sales.
+
+### Dataset Information:
+The data is related with direct marketing campaigns (phone calls) of a Portuguese banking institution. The classification goal is to predict if the client will subscribe a term deposit (variable y).
+Linke to dataset- https://archive.ics.uci.edu/dataset/222/bank+marketing
+
 ### Research Question: 
 How do customer demographics, financial standing, and marketing campaign strategies interact to influence the likelihood of acquiring a term deposit among customers of a banking institution?
 This question aims to explore the relationships between these variables and identify the key factors that drive customer decisions regarding term deposits.
 
-### Executive Summary:
-This business case explores the relationship between customer demographics, financial standing, and campaign strategy on the likelihood of acquiring a term deposit. By understanding these factors, our bank can refine marketing strategies, improve customer targeting, and ultimately increase term deposit sales.
 
 ### Objectives:
 1. Identify key customer demographics that influence term deposit acquisition.
@@ -21,7 +26,6 @@ This business case explores the relationship between customer demographics, fina
 ### Background:
 Term deposits are a cornerstone of our savings products, providing a secure investment option for customers. However, recent trends indicate a need to better understand the factors influencing customer decisions in order to optimize our marketing strategies and increase conversions.
 
-#### ***NOTE insert short explanation of data set + images of variables and their description***
 
 ### Project Process for Customer Term Deposit Analysis
 
@@ -107,48 +111,54 @@ The dataset consisted of 45,211 rows and 17 features, encompassing demographic, 
 
 ##### Most influential factors affecting subscriptions (excluding duration)
 
-[image]
+![important_features_graph.png](https://github.com/SemireB/Bank-Marketing-Data-Analysis-Team-21/Images/important_features_graph.png)
 
 This bar plot illustrates the feature importance for predicting whether a client will subscribe to a term deposit ("yes"). It shows the relative contribution of each feature to the predictive model.
 
 ###### *Features of importance for our analysis:
-    -Balance and Age are important features, suggesting that clients' financial standing and age also play a significant role.
-    -Features like day, campaign, and poutcome_success (outcome of a previous marketing campaign) also contribute meaningfully.
+*Balance and Age are important features, suggesting that clients' financial standing and age also play a significant role.
+*Features like day, campaign, and poutcome_success (outcome of a previous marketing campaign) also contribute meaningfully.
     
 ###### *Lesser Impact Features: 
-Variables such as month, specific job categories, and housing or loan status have lower importance, indicating they may be less critical for predicting subscription likelihood.
+*Variables such as month, specific job categories, and housing or loan status have lower importance, indicating they may be less critical for predicting subscription likelihood.
 
 
 
 ##### Relationship between age and subscription
 
-![homework_1_submission.png](https://github.com/SemireB/sql/blob/Homeworks/02_activities/homework/images/homework_1_submission.png)
+![age_vs_subscription_graph.png](https://github.com/SemireB/Bank-Marketing-Data-Analysis-Team-21/Images/age_vs_subscription_graph.png)
 
 ###### Key Takeaways:
 *Age Distribution and Median: Clients who subscribed to the term deposit ("yes") have a slightly higher median age compared to those who did not ("no"). Both groups are concentrated in the middle-age range (30-50 years old).
+
 *Outliers: The "no" group has a larger number of outliers in older age ranges (above 60), suggesting that older clients are less likely to subscribe.
+
 *Spread and Similarity: The overall age range and spread are fairly similar for both groups, indicating that age alone is not a strong predictor, though subtle differences exist.
 
 
 
 ##### Relationship between balance and subscription
 
-![homework_1_submission.png](https://github.com/SemireB/sql/blob/Homeworks/02_activities/homework/images/homework_1_submission.png)
+[image placeholder-  graph from google docs ]
+
 
 ###### Key Takeaways:
 *Balance Differences: There is a clear balance difference between those who subscribed and those who didn’t, This might mean that individuals with more money in their accounts feel more comfortable subscribing. 
+
 *Error: The black lines on top of each bar are error bars, showing how much variation each group has in their balance. There’s a bit more variability in the balances of those who subscribed compared to those who did not, which we can see from the slightly larger error bars.
+
 *Potential Insight: People with higher balances might be more financially comfortable and, therefore more inclined to subscribe. This is something to consider when establishing targets for future marketing efforts.
 
 
 
 ##### Relationship between day and subscription
 
-![homework_1_submission.png](https://github.com/SemireB/sql/blob/Homeworks/02_activities/homework/images/homework_1_submission.png)
+![day_vs_subscription_graph.png](https://github.com/SemireB/Bank-Marketing-Data-Analysis-Team-21/Images/day_vs_subscription_graph.png)
 
 
 ###### Key Takeaways:
 *Better Ratio on Specific Days: Days like the 5th, 6th, and 20th have slightly higher orange bars than others. This means that the ratio of people who subscribe on these days is better than other days. Even though the absolute number is not very high, these days stand out as having somewhat more favourable outcomes for subscriptions.
+
 *Overall Trend: Despite some days presenting better outcomes, the overall pattern shows that the subscription rate remains very low compared to the total contacts made. The orange bars do not match the blue bars proportionately on any day, highlighting a consistently low conversion rate.
 
 
