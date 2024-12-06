@@ -206,7 +206,7 @@ b. Negative outcomes: Analyze why customers with past negative outcomes are not 
 
 **Yan-**
 
-**Tina Lin-**
+**Tina Lin-** https://drive.google.com/drive/folders/1DKatUlsY0P3f3RhRqNFp-cpd7X6UUu5c?usp=drive_link
 
 
 ## Division of Responsibilities
