@@ -21,6 +21,7 @@ This business case explores the relationship between customer demographics, fina
 ### Background:
 Term deposits are a cornerstone of our savings products, providing a secure investment option for customers. However, recent trends indicate a need to better understand the factors influencing customer decisions in order to optimize our marketing strategies and increase conversions.
 
+#### ***NOTE insert short explanation of data set + images of variables and their description***
 
 ### Project Process for Customer Term Deposit Analysis
 
