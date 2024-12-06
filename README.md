@@ -112,7 +112,7 @@ The dataset consisted of 45,211 rows and 17 features, encompassing demographic, 
 
 ##### Most influential factors affecting subscriptions (excluding duration)
 
-![important_features_graph.png](https://github.com/SemireB/Bank-Marketing-Data-Analysis-Team-21/Images/important_features_graph.png)
+![important_features_graph.png](https://github.com/SemireB/Bank-Marketing-Data-Analysis-Team-21/blob/Contribution-Semire/Images/important_features_graph.png)
 
 This bar plot illustrates the feature importance for predicting whether a client will subscribe to a term deposit ("yes"). It shows the relative contribution of each feature to the predictive model.
 
