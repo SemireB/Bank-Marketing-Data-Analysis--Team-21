@@ -200,7 +200,7 @@ b. Negative outcomes: Analyze why customers with past negative outcomes are not 
 
 **Semire Bamikole-**
 
-**Brandon B-**
+**Brandon B-** https://drive.google.com/file/d/19a0bzObRJIm8NmIExw5xtGKJug3Np5n8/view?usp=sharing 
 
 **Laura Barbosa-**
 
