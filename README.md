@@ -5,12 +5,17 @@
 ### Business Case: 
 Analyzing Factors Influencing Term Deposit Acquisition
 
+### Executive Summary:
+This business case explores the relationship between customer demographics, financial standing, and campaign strategy on the likelihood of acquiring a term deposit. By understanding these factors, our bank can refine marketing strategies, improve customer targeting, and ultimately increase term deposit sales.
+
+### Dataset Information:
+The data is related with direct marketing campaigns (phone calls) of a Portuguese banking institution. The classification goal is to predict if the client will subscribe a term deposit (variable y).
+Linke to dataset- https://archive.ics.uci.edu/dataset/222/bank+marketing
+
 ### Research Question: 
 How do customer demographics, financial standing, and marketing campaign strategies interact to influence the likelihood of acquiring a term deposit among customers of a banking institution?
 This question aims to explore the relationships between these variables and identify the key factors that drive customer decisions regarding term deposits.
 
-### Executive Summary:
-This business case explores the relationship between customer demographics, financial standing, and campaign strategy on the likelihood of acquiring a term deposit. By understanding these factors, our bank can refine marketing strategies, improve customer targeting, and ultimately increase term deposit sales.
 
 ### Objectives:
 1. Identify key customer demographics that influence term deposit acquisition.
@@ -21,7 +26,6 @@ This business case explores the relationship between customer demographics, fina
 ### Background:
 Term deposits are a cornerstone of our savings products, providing a secure investment option for customers. However, recent trends indicate a need to better understand the factors influencing customer decisions in order to optimize our marketing strategies and increase conversions.
 
-#### ***NOTE insert short explanation of data set + images of variables and their description***
 
 ### Project Process for Customer Term Deposit Analysis
 
@@ -58,12 +62,134 @@ Term deposits are a cornerstone of our savings products, providing a secure inve
 - **Task 6.2:** Identify significant factors influencing the likelihood of acquiring term deposits.  
 
 
-### Outcome/Recommendtions 
+### Outcomes
+
+#### Summary of data preparation
+
+To handle missing values in the dataset, the following approach was implemented. First, categorical columns were checked for the presence of 'unknown' or placeholder values by iterating through each column and displaying its unique values. Next, for columns containing 'unknown' values, these were replaced with the mode (most frequent value) of the respective column. This ensured a logical imputation of missing values based on the existing data distribution. Finally, the replacement was verified by rechecking the count of 'unknown' in each column to confirm that the imputation was successfully applied. This process effectively handled missing values while maintaining the integrity of the dataset.
+
+
+#### Summary of data analysis
+
+##### Categorical Variables
+To gain a deeper understanding of customer demographics and behaviors, the frequency counts and proportions for various categorical features in the dataset were calculated. These included job, marital status, education, default status, housing loan, personal loan, and more. This step helped in identifying the distribution of categories within each feature and understanding the potential relationship between these categories and the likelihood of acquiring a term deposit.
+To make the categorical data more insightful, various visualizations were provided that highlighted the proportions of customers in each category. These visualizations included: Bar plots showing the proportions of each category for features like job, marital status, and education. This allowed for easy comparison between categories. Stacked bar plots for each categorical feature in relation to the outcome variable (outcome), which showed how different customer segments are distributed across term deposit subscribers versus non-subscribers. Pie charts for each categorical feature, which provided an alternative, intuitive visualization for proportions.
+
+From the frequency counts and visualizations, the following trends were observed:
+
+* Marital Status: Married customers had a higher likelihood of subscribing to term deposits compared to single customers.
+Job Type: Certain job categories, like retired and technician, showed a higher likelihood of subscribing to term deposits, potentially due to their stable income or investment preferences.
+* Education: Customers with a higher education level tended to show a stronger preference for secure investment options like term deposits.
+
+##### Numerical Variables
+The dataset represents client interactions during direct marketing campaigns by a Portuguese bank.
+* The average age of clients is 41 years,average account balance is approximately €1423.
+* Most contacts occurred on the 15th day of the month on average.
+* Calls lasted an average of 264 seconds.
+* Clients were contacted about 2.8 times per campaign, with an average of 40 days since a prior campaign.
+* Previous contacts averaged about 0.5 times per client.
+
+The median values in this dataset provide a clearer view of typical client characteristics during marketing campaigns:
+* Age: 39 years, indicating middle-aged clientele.
+* Balance: €444, reflecting a relatively modest financial status.
+* Day: 16th, showing most interactions occurred mid-month.
+* Duration: 185 seconds, suggesting brief calls.
+* Campaign: 2, meaning clients were typically contacted twice per campaign.
+* Pdays: -1, showing many clients were not previously contacted.
+* Previous: 0, indicating no prior interactions for the majority.
+
+To determine statistical metrics (e.g., standard deviation, range, and IQR) for numerical variables in a dataset the process began with loading the dataset and selecting key numerical columns, including variables like age, balance, and duration, for analysis. Descriptive statistics were then calculated for each variable, providing insights into their central tendencies and variability. To complement this, boxplots were created to visualize the distribution of each variable and highlight potential outliers.
+
+The findings revealed significant variability in variables such as balance and pdays, which could influence modeling decisions in predictive analytics. Subscribers ("yes") tend to have slightly higher median ages and account balances compared to non-subscribers, with fewer outliers in both older ages and very high balances, suggesting a modest positive association with these variables. Campaign efforts show that fewer contacts are associated with a higher likelihood of subscription, while non-subscribers ("no") tend to have longer tails with more frequent high-contact outliers. Similarly, shorter durations since the last contact (lower pdays) and fewer prior contacts are more closely linked to positive outcomes, while non-subscribers exhibit a wider range and higher values for these variables.
+
+
+##### Linear Regression Experiment
+
+The dataset consisted of 45,211 rows and 17 features, encompassing demographic, economic, and campaign-related data. The analysis began with an initial inspection to identify key features, such as customers with the highest balances. Scatter plots and regression lines were employed to visualize relationships between numerical features and the target variable, balance, providing insights into potential correlations. Subsequently, a linear regression model was developed to predict balance, utilizing a 75-25 train-test split for validation. The model's performance, evaluated using the Root Mean Squared Percentage Error (RMSPE), yielded a value of 3.19. While this indicates some level of predictive ability, it also highlights opportunities for further model optimization and refinement.
+
+
+### Key Insights
+
+##### Most influential factors affecting subscriptions (excluding duration)
+
+![important_features_graph.png](https://github.com/SemireB/Bank-Marketing-Data-Analysis-Team-21/Images/important_features_graph.png)
+
+This bar plot illustrates the feature importance for predicting whether a client will subscribe to a term deposit ("yes"). It shows the relative contribution of each feature to the predictive model.
+
+###### *Features of importance for our analysis:
+* Balance and Age are important features, suggesting that clients' financial standing and age also play a significant role.
+* Features like day, campaign, and poutcome_success (outcome of a previous marketing campaign) also contribute meaningfully.
+    
+###### *Lesser Impact Features: 
+* Variables such as month, specific job categories, and housing or loan status have lower importance, indicating they may be less critical for predicting subscription likelihood.
 
 
 
+##### Relationship between age and subscription
+
+![age_vs_subscription_graph.png](https://github.com/SemireB/Bank-Marketing-Data-Analysis-Team-21/Images/age_vs_subscription_graph.png)
+
+###### Key Takeaways:
+* Age Distribution and Median: Clients who subscribed to the term deposit ("yes") have a slightly higher median age compared to those who did not ("no"). Both groups are concentrated in the middle-age range (30-50 years old).
+
+* Outliers: The "no" group has a larger number of outliers in older age ranges (above 60), suggesting that older clients are less likely to subscribe.
+
+* Spread and Similarity: The overall age range and spread are fairly similar for both groups, indicating that age alone is not a strong predictor, though subtle differences exist.
 
 
+
+##### Relationship between balance and subscription
+
+[image placeholder-  graph from google docs ]
+
+
+###### Key Takeaways:
+* Balance Differences: There is a clear balance difference between those who subscribed and those who didn’t, This might mean that individuals with more money in their accounts feel more comfortable subscribing. 
+
+* Error: The black lines on top of each bar are error bars, showing how much variation each group has in their balance. There’s a bit more variability in the balances of those who subscribed compared to those who did not, which we can see from the slightly larger error bars.
+
+* Potential Insight: People with higher balances might be more financially comfortable and, therefore more inclined to subscribe. This is something to consider when establishing targets for future marketing efforts.
+
+
+
+##### Relationship between day and subscription
+
+![day_vs_subscription_graph.png](https://github.com/SemireB/Bank-Marketing-Data-Analysis-Team-21/Images/day_vs_subscription_graph.png)
+
+
+###### Key Takeaways:
+* Better Ratio on Specific Days: Days like the 5th, 6th, and 20th have slightly higher orange bars than others. This means that the ratio of people who subscribe on these days is better than other days. Even though the absolute number is not very high, these days stand out as having somewhat more favourable outcomes for subscriptions.
+
+* Overall Trend: Despite some days presenting better outcomes, the overall pattern shows that the subscription rate remains very low compared to the total contacts made. The orange bars do not match the blue bars proportionately on any day, highlighting a consistently low conversion rate.
+
+
+### Recommendations
+
+#### Customer Demographics:
+
+a. Target age groups: Focus marketing efforts on middle-aged customers who show a higher likelihood of term deposit subscriptions.
+
+b. Refine Outreach for Older Clients: Develop tailored messaging for older clients (above 60) to address potential barriers or concerns, as they are underrepresented among subscribers despite being contacted.
+
+c. Segment Strategies by Age: Conduct additional analyses to explore preferences and behaviors by age segment, which can help refine campaign strategies to improve effectiveness.
+
+#### Financial Standing:
+
+a. Balance: It might be helpful to segment the campaign audience based on their account balance and focus marketing efforts on those with higher balances since they seem more likely to subscribe.
+
+Balance cont'd: Analyze whether there is a specific balance threshold above which people are significantly more likely to subscribe. This could help fine-tune future marketing campaigns.
+
+#### Campaign Effectiveness:
+
+a. Optimal contact frequency: Avoid excessive follow-ups as diminishing returns are observed after 2-3 contacts. Focus on delivering impactful communication within fewer attempts.
+
+b. Leverage recent contacts: Customers contacted more recently (pdays) show better response rates. Prioritize follow-ups with recently contacted customers.
+
+#### Historical Campaign Data:
+
+a. Previous campaign success: Customers with a successful outcome in prior campaigns are more likely to subscribe again. Use this information to re-target such customers.
+
+b. Negative outcomes: Analyze why customers with past negative outcomes are not subscribing and adjust strategies accordingly (e.g., address their concerns in future campaigns).
 
 
 
@@ -99,6 +225,8 @@ Term deposits are a cornerstone of our savings products, providing a secure inve
   * Gather and document requirements
   * Write, test and maintain code
   * Update documentation for technical solutions
+ 
+*Everyone: Analyzing/summarizing findings and compiling final results and readme file
  
 ## Learning Outcomes
 
