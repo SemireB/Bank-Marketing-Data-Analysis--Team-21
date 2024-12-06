@@ -74,28 +74,29 @@ To handle missing values in the dataset, the following approach was implemented.
 ##### Categorical Variables
 To gain a deeper understanding of customer demographics and behaviors, the frequency counts and proportions for various categorical features in the dataset were calculated. These included job, marital status, education, default status, housing loan, personal loan, and more. This step helped in identifying the distribution of categories within each feature and understanding the potential relationship between these categories and the likelihood of acquiring a term deposit.
 To make the categorical data more insightful, various visualizations were provided that highlighted the proportions of customers in each category. These visualizations included: Bar plots showing the proportions of each category for features like job, marital status, and education. This allowed for easy comparison between categories. Stacked bar plots for each categorical feature in relation to the outcome variable (outcome), which showed how different customer segments are distributed across term deposit subscribers versus non-subscribers. Pie charts for each categorical feature, which provided an alternative, intuitive visualization for proportions.
+
 From the frequency counts and visualizations, the following trends were observed:
 
-Marital Status: Married customers had a higher likelihood of subscribing to term deposits compared to single customers.
+* Marital Status: Married customers had a higher likelihood of subscribing to term deposits compared to single customers.
 Job Type: Certain job categories, like retired and technician, showed a higher likelihood of subscribing to term deposits, potentially due to their stable income or investment preferences.
-Education: Customers with a higher education level tended to show a stronger preference for secure investment options like term deposits.
+* Education: Customers with a higher education level tended to show a stronger preference for secure investment options like term deposits.
 
 ##### Numerical Variables
 The dataset represents client interactions during direct marketing campaigns by a Portuguese bank.
-*The average age of clients is 41 years,average account balance is approximately €1423.
-*Most contacts occurred on the 15th day of the month on average.
-*Calls lasted an average of 264 seconds.
-*Clients were contacted about 2.8 times per campaign, with an average of 40 days since a prior campaign.
-*Previous contacts averaged about 0.5 times per client.
+* The average age of clients is 41 years,average account balance is approximately €1423.
+* Most contacts occurred on the 15th day of the month on average.
+* Calls lasted an average of 264 seconds.
+* Clients were contacted about 2.8 times per campaign, with an average of 40 days since a prior campaign.
+* Previous contacts averaged about 0.5 times per client.
 
 The median values in this dataset provide a clearer view of typical client characteristics during marketing campaigns:
-*Age: 39 years, indicating middle-aged clientele.
-*Balance: €444, reflecting a relatively modest financial status.
-*Day: 16th, showing most interactions occurred mid-month.
-*Duration: 185 seconds, suggesting brief calls.
-*Campaign: 2, meaning clients were typically contacted twice per campaign.
-*Pdays: -1, showing many clients were not previously contacted.
-*Previous: 0, indicating no prior interactions for the majority.
+* Age: 39 years, indicating middle-aged clientele.
+* Balance: €444, reflecting a relatively modest financial status.
+* Day: 16th, showing most interactions occurred mid-month.
+* Duration: 185 seconds, suggesting brief calls.
+* Campaign: 2, meaning clients were typically contacted twice per campaign.
+* Pdays: -1, showing many clients were not previously contacted.
+* Previous: 0, indicating no prior interactions for the majority.
 
 To determine statistical metrics (e.g., standard deviation, range, and IQR) for numerical variables in a dataset the process began with loading the dataset and selecting key numerical columns, including variables like age, balance, and duration, for analysis. Descriptive statistics were then calculated for each variable, providing insights into their central tendencies and variability. To complement this, boxplots were created to visualize the distribution of each variable and highlight potential outliers.
 
@@ -116,11 +117,11 @@ The dataset consisted of 45,211 rows and 17 features, encompassing demographic, 
 This bar plot illustrates the feature importance for predicting whether a client will subscribe to a term deposit ("yes"). It shows the relative contribution of each feature to the predictive model.
 
 ###### *Features of importance for our analysis:
-*Balance and Age are important features, suggesting that clients' financial standing and age also play a significant role.
-*Features like day, campaign, and poutcome_success (outcome of a previous marketing campaign) also contribute meaningfully.
+* Balance and Age are important features, suggesting that clients' financial standing and age also play a significant role.
+* Features like day, campaign, and poutcome_success (outcome of a previous marketing campaign) also contribute meaningfully.
     
 ###### *Lesser Impact Features: 
-*Variables such as month, specific job categories, and housing or loan status have lower importance, indicating they may be less critical for predicting subscription likelihood.
+* Variables such as month, specific job categories, and housing or loan status have lower importance, indicating they may be less critical for predicting subscription likelihood.
 
 
 
@@ -129,11 +130,11 @@ This bar plot illustrates the feature importance for predicting whether a client
 ![age_vs_subscription_graph.png](https://github.com/SemireB/Bank-Marketing-Data-Analysis-Team-21/Images/age_vs_subscription_graph.png)
 
 ###### Key Takeaways:
-*Age Distribution and Median: Clients who subscribed to the term deposit ("yes") have a slightly higher median age compared to those who did not ("no"). Both groups are concentrated in the middle-age range (30-50 years old).
+* Age Distribution and Median: Clients who subscribed to the term deposit ("yes") have a slightly higher median age compared to those who did not ("no"). Both groups are concentrated in the middle-age range (30-50 years old).
 
-*Outliers: The "no" group has a larger number of outliers in older age ranges (above 60), suggesting that older clients are less likely to subscribe.
+* Outliers: The "no" group has a larger number of outliers in older age ranges (above 60), suggesting that older clients are less likely to subscribe.
 
-*Spread and Similarity: The overall age range and spread are fairly similar for both groups, indicating that age alone is not a strong predictor, though subtle differences exist.
+* Spread and Similarity: The overall age range and spread are fairly similar for both groups, indicating that age alone is not a strong predictor, though subtle differences exist.
 
 
 
@@ -143,11 +144,11 @@ This bar plot illustrates the feature importance for predicting whether a client
 
 
 ###### Key Takeaways:
-*Balance Differences: There is a clear balance difference between those who subscribed and those who didn’t, This might mean that individuals with more money in their accounts feel more comfortable subscribing. 
+* Balance Differences: There is a clear balance difference between those who subscribed and those who didn’t, This might mean that individuals with more money in their accounts feel more comfortable subscribing. 
 
-*Error: The black lines on top of each bar are error bars, showing how much variation each group has in their balance. There’s a bit more variability in the balances of those who subscribed compared to those who did not, which we can see from the slightly larger error bars.
+* Error: The black lines on top of each bar are error bars, showing how much variation each group has in their balance. There’s a bit more variability in the balances of those who subscribed compared to those who did not, which we can see from the slightly larger error bars.
 
-*Potential Insight: People with higher balances might be more financially comfortable and, therefore more inclined to subscribe. This is something to consider when establishing targets for future marketing efforts.
+* Potential Insight: People with higher balances might be more financially comfortable and, therefore more inclined to subscribe. This is something to consider when establishing targets for future marketing efforts.
 
 
 
@@ -157,9 +158,9 @@ This bar plot illustrates the feature importance for predicting whether a client
 
 
 ###### Key Takeaways:
-*Better Ratio on Specific Days: Days like the 5th, 6th, and 20th have slightly higher orange bars than others. This means that the ratio of people who subscribe on these days is better than other days. Even though the absolute number is not very high, these days stand out as having somewhat more favourable outcomes for subscriptions.
+* Better Ratio on Specific Days: Days like the 5th, 6th, and 20th have slightly higher orange bars than others. This means that the ratio of people who subscribe on these days is better than other days. Even though the absolute number is not very high, these days stand out as having somewhat more favourable outcomes for subscriptions.
 
-*Overall Trend: Despite some days presenting better outcomes, the overall pattern shows that the subscription rate remains very low compared to the total contacts made. The orange bars do not match the blue bars proportionately on any day, highlighting a consistently low conversion rate.
+* Overall Trend: Despite some days presenting better outcomes, the overall pattern shows that the subscription rate remains very low compared to the total contacts made. The orange bars do not match the blue bars proportionately on any day, highlighting a consistently low conversion rate.
 
 
 ### Recommendations
