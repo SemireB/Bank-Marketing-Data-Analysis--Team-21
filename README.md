@@ -112,7 +112,7 @@ The dataset consisted of 45,211 rows and 17 features, encompassing demographic, 
 
 ##### Most influential factors affecting subscriptions (excluding duration)
 
-![important_features_graph.png](https://github.com/SemireB/Bank-Marketing-Data-Analysis-Team-21/Images/important_features_graph.png)
+![important_features_graph.png](https://github.com/SemireB/Bank-Marketing-Data-Analysis-Team-21/blob/Contribution-Semire/Images/important_features_graph.png)
 
 This bar plot illustrates the feature importance for predicting whether a client will subscribe to a term deposit ("yes"). It shows the relative contribution of each feature to the predictive model.
 
@@ -127,7 +127,7 @@ This bar plot illustrates the feature importance for predicting whether a client
 
 ##### Relationship between age and subscription
 
-![age_vs_subscription_graph.png](https://github.com/SemireB/Bank-Marketing-Data-Analysis-Team-21/Images/age_vs_subscription_graph.png)
+![age_vs_subscription_graph.png](https://github.com/SemireB/Bank-Marketing-Data-Analysis-Team-21/blob/Contribution-Semire/Images/age_vs_subscription_graph.png)
 
 ###### Key Takeaways:
 * Age Distribution and Median: Clients who subscribed to the term deposit ("yes") have a slightly higher median age compared to those who did not ("no"). Both groups are concentrated in the middle-age range (30-50 years old).
@@ -154,7 +154,7 @@ This bar plot illustrates the feature importance for predicting whether a client
 
 ##### Relationship between day and subscription
 
-![day_vs_subscription_graph.png](https://github.com/SemireB/Bank-Marketing-Data-Analysis-Team-21/Images/day_vs_subscription_graph.png)
+![day_vs_subscription_graph.png](https://github.com/SemireB/Bank-Marketing-Data-Analysis-Team-21/blob/Contribution-Semire/Images/day_vs_subscription_graph.png)
 
 
 ###### Key Takeaways:
