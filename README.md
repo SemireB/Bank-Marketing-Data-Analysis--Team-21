@@ -140,7 +140,7 @@ This bar plot illustrates the feature importance for predicting whether a client
 
 ##### Relationship between balance and subscription
 
-[image placeholder-  graph from google docs ]
+![Balance_vs_subscription_graph.png](https://github.com/SemireB/Bank-Marketing-Data-Analysis-Team-21/blob/main/Images/Balance_vs_subscription_graph.png)
 
 
 ###### Key Takeaways:
