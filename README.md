@@ -204,7 +204,7 @@ b. Negative outcomes: Analyze why customers with past negative outcomes are not 
 
 **Laura Barbosa-**
 
-**Yan-**
+**Yan-**  https://drive.google.com/file/d/1oJgbF27Ap8eTOnHwbLjPg6Ym1Elr9gs6/view?usp=sharing
 
 **Tina Lin-** https://drive.google.com/drive/folders/1DKatUlsY0P3f3RhRqNFp-cpd7X6UUu5c?usp=drive_link
 
