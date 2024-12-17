@@ -142,7 +142,7 @@ This bar plot illustrates the feature importance for predicting whether a client
 
 ##### Relationship between balance and subscription
 
-![balance_vs_subscription_graph.png](https://github.com/SemireB/Bank-Marketing-Data-Analysis-Team-21/blob/main/Images/Balance_vs_subscription_graph.png)
+![Balance_vs_subscription_graph.png](https://github.com/SemireB/Bank-Marketing-Data-Analysis-Team-21/blob/main/Images/Balance_vs_subscription_graph.png)
 
 
 ###### Key Takeaways:
@@ -202,13 +202,13 @@ b. Negative outcomes: Analyze why customers with past negative outcomes are not 
 
 **Semire Bamikole-** https://www.loom.com/share/269e627f4c2f4d6399dcdbdf1136db2e?sid=7de74949-754b-4824-90bb-b4827c6a7a93
 
-**Brandon B-**
+**Brandon B-** https://drive.google.com/file/d/19a0bzObRJIm8NmIExw5xtGKJug3Np5n8/view?usp=sharing 
 
-**Laura Barbosa-**
+**Laura Barbosa-** https://www.loom.com/share/58eacb47d0584100ad2407d485ab1292?sid=0e19baba-e003-427f-a829-7cc60fd00d4b
 
-**Yan-**
+**Yan-**  https://drive.google.com/file/d/1oJgbF27Ap8eTOnHwbLjPg6Ym1Elr9gs6/view?usp=sharing
 
-**Tina Lin-**
+**Tina Lin-** https://drive.google.com/drive/folders/1DKatUlsY0P3f3RhRqNFp-cpd7X6UUu5c?usp=drive_link
 
 
 ## Division of Responsibilities
