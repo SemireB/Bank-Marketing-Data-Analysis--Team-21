@@ -123,6 +123,8 @@ This bar plot illustrates the feature importance for predicting whether a client
 ###### *Lesser Impact Features: 
 * Variables such as month, specific job categories, and housing or loan status have lower importance, indicating they may be less critical for predicting subscription likelihood.
 
+###### Note: Duration variable was omitted due to the highimpact it has on the ouput target. As stated in the data source file - e.g., if duration=0 then y='no'. Yet, the duration is not known before a call is performed. Also, after the end of the call y is obviously known. Thus, this input should only be included for benchmark purposes and should be discarded if the intention is to have a realistic predictive model (source- https://archive.ics.uci.edu/dataset/222/bank+marketing).
+
 
 
 ##### Relationship between age and subscription
@@ -198,7 +200,7 @@ b. Negative outcomes: Analyze why customers with past negative outcomes are not 
 
 ### Video Reflection Links
 
-**Semire Bamikole-**
+**Semire Bamikole-** https://www.loom.com/share/269e627f4c2f4d6399dcdbdf1136db2e?sid=7de74949-754b-4824-90bb-b4827c6a7a93
 
 **Brandon B-** https://drive.google.com/file/d/19a0bzObRJIm8NmIExw5xtGKJug3Np5n8/view?usp=sharing 
 
@@ -226,7 +228,7 @@ b. Negative outcomes: Analyze why customers with past negative outcomes are not 
   * Write, test and maintain code
   * Update documentation for technical solutions
  
-*Everyone: Analyzing/summarizing findings and compiling final results and readme file
+* Everyone: Analyzing/summarizing findings and compiling final results and readme file
  
 ## Learning Outcomes
 
@@ -242,9 +244,5 @@ By the end of **Part 2**, participants will be able to:
 * Clearly document and present the results of their analysis.
 * Reflect on their learning and collaboration process through a recorded video.
 
-### Example Projects
 
-* [TTC Transit Delay Project](https://github.com/JasonYao3/TTC_transit_delay_proj)
-* [Mortgage Risk Assessment Project](https://github.com/movcha/team_project)
-* [Mexican Government Report Text Analysis](https://github.com/PhantomInsights/mexican-government-report)
 
